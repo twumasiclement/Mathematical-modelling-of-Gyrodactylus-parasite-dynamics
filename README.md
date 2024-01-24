@@ -4,7 +4,7 @@ The development of mathematical models for studying newly emerging and reemergin
 
 **NB: All `R source codes` developed for statistical analyses and mathematical modelling, as well as the empirical data (for this study), are attached. The empirical parasite data is named `Parasite_Data.csv`, the data on the body area of fish named `Area_Fish_bodyParts.csv`, and `w0.csv` denoting the initial summary statistics weights for the ABC fitting (based on initial simulations at ABC time $t=0$).**
 
-# Below are the labels of the nain R codes/scripts of our individual-based stochastic simulation model:
+# Below are the labels of the main R codes/scripts of our individual-based stochastic simulation model:
 
 1. `Simulation-single-fish-script.r`: Codes to simulate data for a single fish (given specific covariate information)
 2. `Simulation-Group-fish-script.r`: Codes to simulate data for a group of fish fish (in a fashion similar to the observed data)
@@ -14,7 +14,7 @@ The development of mathematical models for studying newly emerging and reemergin
    
 
 
-# Below are the labels of the nain R codes/scripts of our modified sequential Monte Carlo ABC sampler (dubbed as Weighted-iterative ABC): 
+# Below are the labels of the main R codes/scripts of our modified sequential Monte Carlo ABC sampler (dubbed as Weighted-iterative ABC): 
 1. `ABC-Importance-Sampling-Improved-script.R`: Codes for the ABC importance sampling
 2. `Weighted-iterative-ABC-script.R`: Codes for the main weighted-iterative ABC or the modified ABC-SMC sampler
 3. `Project-Parasite-script.r`: Codes for the function used to project parasite numbers after host mortality
