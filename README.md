@@ -8,8 +8,8 @@ The development of mathematical models for studying newly emerging and reemergin
 
 1. `Simulation-single-fish-script.r`: Codes to simulate data for a single fish (given specific covariate information)
 2. `Simulation-Group-fish-script.r`: Codes to simulate data for a group of fish (in a fashion similar to the observed data)
-3. `Update-exactSSA-script.r`: Codes for updating exact SSA (i.e., updating simulation events across the 4 body regions: Tail, Lower region, Upper region, & Head)
-4. `Update-tauleaping-script.r`: Codes for updating tau-leaping (i.e., updating simulation events across the 4 body regions: Tail, Lower region, Upper region, & Head)
+3. `Update-exactSSA-script.r`: Codes for updating exact SSA (i.e., updating simulation events across the 4 host's body regions: Tail, Lower region, Upper region, & Head)
+4. `Update-tauleaping-script.r`: Codes for updating tau-leaping (i.e., updating simulation events across the 4 host's body regions: Tail, Lower region, Upper region, & Head)
 5. `Descriptors-Data-script.r`: Codes for extracting experimental descriptors (given the high-dimensional observed data)
    
 
