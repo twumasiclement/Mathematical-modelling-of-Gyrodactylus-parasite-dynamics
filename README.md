@@ -7,7 +7,7 @@ The development of mathematical models for studying newly emerging and reemergin
 # Below are the labels of the main R codes/scripts of our individual-based stochastic simulation model:
 
 1. `Simulation-single-fish-script.r`: Codes to simulate data for a single fish (given specific covariate information)
-2. `Simulation-Group-fish-script.r`: Codes to simulate data for a group of fish fish (in a fashion similar to the observed data)
+2. `Simulation-Group-fish-script.r`: Codes to simulate data for a group of fish (in a fashion similar to the observed data)
 3. `Update-exactSSA-script.r`: Codes for updating exact SSA (i.e., updating simulation events across the 4 body regions: Tail, Lower region, Upper region, & Head)
 4. `Update-tauleaping-script.r`: Codes for updating tau-leaping (i.e., updating simulation events across the 4 body regions: Tail, Lower region, Upper region, & Head)
 5. `Descriptors-Data-script.r`: Codes for extracting experimental descriptors (given the high-dimensional observed data)
@@ -18,8 +18,8 @@ The development of mathematical models for studying newly emerging and reemergin
 1. `ABC-Importance-Sampling-Improved-script.R`: Codes for the ABC importance sampling
 2. `Weighted-iterative-ABC-script.R`: Codes for the main weighted-iterative ABC or the modified ABC-SMC sampler
 3. `Project-Parasite-script.r`: Codes for the function used to project parasite numbers after host mortality
-4. `Post-Lasso-reg-adj-L1-script.R`: Codes for the ridge-adjusted ABC posterior correction (L2 regularisation)
-5. `Post-Ridge-reg-adj-L2-script.R`: Codes for the lasso-adjusted ABC posterior correction (L1 regularisation)
+4. `Post-Lasso-reg-adj-L1-script.R`: Codes for the lasso-adjusted ABC posterior correction (L1 regularisation)
+5. `Post-Ridge-reg-adj-L2-script.R`: Codes for the ridge-adjusted ABC posterior correction (L2 regularisation)
 6. `Sim_ABC_SMC_fit_Improved.R`: Codes for fitting the stochastic model using our modified ABC-SMC sampler
 7. `Weighted-distance-script.R`: Codes for computed the weighted sum-of-squares distance
 8. `combine-summary-stats-script.R`: Codes for combining the ABC summary statistics into a 2-dimensional array
