@@ -1,7 +1,7 @@
 require("kedd")
 
 #Gaussian kernel with bandwidth delta
-guass_kernel<- <- function(dist, delta) {
+guass_kernel<- function(dist, delta) {
   kern <- (1 / (sqrt(2 * pi) * delta)) * exp(- (dist^2) / (2 * delta^2))
   return(kern)
 }
